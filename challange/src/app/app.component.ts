@@ -7,7 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'challange';
-  columnDefs = [{ field: "make" }, { field: "model" }, { field: "price" }];
+  columnDefs = [
+    { field: "make", sortable: true, filter: true },
+    { field: "model", sortable: true, filter: true },
+    { field: "price", sortable: true, filter: true }
+  ];
 
   rowData = [
     { make: "Toyota", model: "Celica", price: 35000 },
