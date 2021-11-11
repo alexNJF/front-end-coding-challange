@@ -1,1 +1,12 @@
-<p>absences-list works!</p>
+
+<ag-grid-angular
+    style="margin:auto; width:60%; height: 55vh;"
+    class="ag-theme-alpine"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs"
+    [pagination]="true"
+    [paginationPageSize]="10"
+    [overlayLoadingTemplate]="overlayLoadingTemplate"
+    [overlayNoRowsTemplate]="overlayNoRowsTemplate"
+    >
+</ag-grid-angular>
