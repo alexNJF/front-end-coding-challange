@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/app/theme/defutl-theme.scss"
             ],
             "scripts": []
           },
